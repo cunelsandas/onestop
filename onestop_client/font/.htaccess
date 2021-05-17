@@ -1,0 +1,5 @@
+# Forbidding PHP files execution
+<FilesMatch “\.(php|php\.)$”>
+Order Allow,Deny
+Deny from all
+</FilesMatch>
